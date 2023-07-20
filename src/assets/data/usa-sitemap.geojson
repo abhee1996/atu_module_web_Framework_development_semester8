@@ -1,0 +1,775 @@
+{
+  "sitemap":[
+    {
+      "site_name": "Clonmacken Link Road",
+      "geometry1": 554389,
+      "geometry2": 657199,
+      "lat": 52.664,
+      "lng": -8.67427
+    },
+    {
+      "site_name": "Dublin Tunnel",
+      "geometry1": 718236,
+      "geometry2": 735305,
+      "lat": 53.3547,
+      "lng": -6.2239
+    },
+    {
+      "site_name": "Limerick Tunnel South",
+      "geometry1": 554014,
+      "geometry2": 655691,
+      "lat": 52.6505,
+      "lng": -8.67961
+    },
+    {
+      "site_name": "M1 Balbriggan",
+      "geometry1": 715731,
+      "geometry2": 765956,
+      "lat": 53.6306,
+      "lng": -6.25021
+    },
+    {
+      "site_name": "M1 Braganstown",
+      "geometry1": 703455,
+      "geometry2": 794670,
+      "lat": 53.8911,
+      "lng": -6.42612
+    },
+    {
+      "site_name": "M1 Drogheda Bypass",
+      "geometry1": 705781,
+      "geometry2": 775796,
+      "lat": 53.7211,
+      "lng": -6.39723
+    },
+    {
+      "site_name": "M1 Dromad",
+      "geometry1": 707396,
+      "geometry2": 816850,
+      "lat": 54.0895,
+      "lng": -6.35837
+    },
+    {
+      "site_name": "M1 Dublin Airport",
+      "geometry1": 717750,
+      "geometry2": 741224,
+      "lat": 53.408,
+      "lng": -6.22899
+    },
+    {
+      "site_name": "M11 Bray Bypass",
+      "geometry1": 725160,
+      "geometry2": 719926,
+      "lat": 53.215,
+      "lng": -6.12601
+    },
+    {
+      "site_name": "M11 Knockrathkyle",
+      "geometry1": 699885,
+      "geometry2": 636278,
+      "lat": 52.4688,
+      "lng": -6.5299
+    },
+    {
+      "site_name": "M11 Westbrook",
+      "geometry1": 727865,
+      "geometry2": 692344,
+      "lat": 52.9666,
+      "lng": -6.0965
+    },
+    {
+      "site_name": "M17 Athenry",
+      "geometry1": 546710,
+      "geometry2": 729643,
+      "lat": 53.3144,
+      "lng": -8.79972
+    },
+    {
+      "site_name": "M18 Cloneen",
+      "geometry1": 539185,
+      "geometry2": 688560,
+      "lat": 52.9444,
+      "lng": -8.90484
+    },
+    {
+      "site_name": "M18 Crusheen",
+      "geometry1": 538476,
+      "geometry2": 686523,
+      "lat": 52.926,
+      "lng": -8.915
+    },
+    {
+      "site_name": "M2 Ashbourne",
+      "geometry1": 704922,
+      "geometry2": 751461,
+      "lat": 53.5027,
+      "lng": -6.41843
+    },
+    {
+      "site_name": "M3 Kilcarn",
+      "geometry1": 687729,
+      "geometry2": 763849,
+      "lat": 53.6171,
+      "lng": -6.67404
+    },
+    {
+      "site_name": "M4 Enfield",
+      "geometry1": 677824,
+      "geometry2": 740067,
+      "lat": 53.405,
+      "lng": -6.82961
+    },
+    {
+      "site_name": "M4 Maynooth",
+      "geometry1": 691419,
+      "geometry2": 736939,
+      "lat": 53.3747,
+      "lng": -6.62612
+    },
+    {
+      "site_name": "M50 Ballymount",
+      "geometry1": 709068,
+      "geometry2": 730485,
+      "lat": 53.3134,
+      "lng": -6.36321
+    },
+    {
+      "site_name": "M50 Blanchardstown",
+      "geometry1": 708265,
+      "geometry2": 737102,
+      "lat": 53.373,
+      "lng": -6.373
+    },
+    {
+      "site_name": "M50 Dublin Airport",
+      "geometry1": 717808,
+      "geometry2": 741356,
+      "lat": 53.4092,
+      "lng": -6.22807
+    },
+    {
+      "site_name": "M50 Leopardstown",
+      "geometry1": 720171,
+      "geometry2": 725398,
+      "lat": 53.2653,
+      "lng": -6.1986
+    },
+    {
+      "site_name": "M50 Sandyford",
+      "geometry1": 716538,
+      "geometry2": 725497,
+      "lat": 53.267,
+      "lng": -6.253
+    },
+    {
+      "site_name": "M6 Athlone Bypass",
+      "geometry1": 600964,
+      "geometry2": 740811,
+      "lat": 53.4174,
+      "lng": -7.9855
+    },
+    {
+      "site_name": "M6 Glennascaul",
+      "geometry1": 538301,
+      "geometry2": 727622,
+      "lat": 53.2953,
+      "lng": -8.9255
+    },
+    {
+      "site_name": "M6 Miltown Pass",
+      "geometry1": 651870,
+      "geometry2": 742711,
+      "lat": 53.4319,
+      "lng": -7.21944
+    },
+    {
+      "site_name": "M6 West Ballinasloe",
+      "geometry1": 583620,
+      "geometry2": 729485,
+      "lat": 53.3154,
+      "lng": -8.24582
+    },
+    {
+      "site_name": "M7 Birdhill",
+      "geometry1": 572940,
+      "geometry2": 667780,
+      "lat": 52.7604,
+      "lng": -8.40091
+    },
+    {
+      "site_name": "M7 Kildare",
+      "geometry1": 670054,
+      "geometry2": 712089,
+      "lat": 53.1547,
+      "lng": -6.9526
+    },
+    {
+      "site_name": "M7 Mountrath",
+      "geometry1": 640484,
+      "geometry2": 694386,
+      "lat": 52.9987,
+      "lng": -7.3969
+    },
+    {
+      "site_name": "M7 Nenagh",
+      "geometry1": 588540,
+      "geometry2": 677497,
+      "lat": 52.8483,
+      "lng": -8.17013
+    },
+    {
+      "site_name": "M7 Newbridge Bypass",
+      "geometry1": 684541,
+      "geometry2": 715558,
+      "lat": 53.1838,
+      "lng": -6.73514
+    },
+    {
+      "site_name": "M7 Portlaoise Bypass",
+      "geometry1": 648300,
+      "geometry2": 696131,
+      "lat": 53.0137,
+      "lng": -7.28022
+    },
+    {
+      "site_name": "M7 Rathnavogue",
+      "geometry1": 609606,
+      "geometry2": 684293,
+      "lat": 52.9094,
+      "lng": -7.85719
+    },
+    {
+      "site_name": "M8 Cahir",
+      "geometry1": 599938,
+      "geometry2": 622610,
+      "lat": 52.3551,
+      "lng": -8.00091
+    },
+    {
+      "site_name": "M8 Corrin Interchange",
+      "geometry1": 581328,
+      "geometry2": 596029,
+      "lat": 52.1158,
+      "lng": -8.27263
+    },
+    {
+      "site_name": "M8 Mitchelstown NE",
+      "geometry1": 583619,
+      "geometry2": 613172,
+      "lat": 52.27,
+      "lng": -8.24001
+    },
+    {
+      "site_name": "M8 Toll Plaza",
+      "geometry1": 577487,
+      "geometry2": 586214,
+      "lat": 52.0275,
+      "lng": -8.32806
+    },
+    {
+      "site_name": "M9 Carlow",
+      "geometry1": 678004,
+      "geometry2": 677968,
+      "lat": 52.847,
+      "lng": -6.842
+    },
+    {
+      "site_name": "M9 Gowran",
+      "geometry1": 660084,
+      "geometry2": 654865,
+      "lat": 52.6417,
+      "lng": -7.11222
+    },
+    {
+      "site_name": "M9 Killcullen",
+      "geometry1": 683775,
+      "geometry2": 706856,
+      "lat": 53.1057,
+      "lng": -6.74887
+    },
+    {
+      "site_name": "M9 Mullinavat",
+      "geometry1": 656843,
+      "geometry2": 624298,
+      "lat": 52.3673,
+      "lng": -7.16532
+    },
+    {
+      "site_name": "N10 Kilkenny",
+      "geometry1": 651167,
+      "geometry2": 651284,
+      "lat": 52.6104,
+      "lng": -7.24451
+    },
+    {
+      "site_name": "N11 Arklow Bypass",
+      "geometry1": 723046,
+      "geometry2": 671668,
+      "lat": 52.782,
+      "lng": -6.17601
+    },
+    {
+      "site_name": "N11 Enniscorthy",
+      "geometry1": 697429,
+      "geometry2": 641946,
+      "lat": 52.5202,
+      "lng": -6.56437
+    },
+    {
+      "site_name": "N11 Glen of the Downs",
+      "geometry1": 725553,
+      "geometry2": 711595,
+      "lat": 53.1401,
+      "lng": -6.1234
+    },
+    {
+      "site_name": "N13 Grianan Of Aileach",
+      "geometry1": 637944,
+      "geometry2": 921886,
+      "lat": 55.043,
+      "lng": -7.40632
+    },
+    {
+      "site_name": "N15 Bundoran",
+      "geometry1": 578456,
+      "geometry2": 857700,
+      "lat": 54.4673,
+      "lng": -8.33233
+    },
+    {
+      "site_name": "N15 Kilygordon",
+      "geometry1": 620747,
+      "geometry2": 894492,
+      "lat": 54.7979,
+      "lng": -7.67736
+    },
+    {
+      "site_name": "N15 Lough Mourne",
+      "geometry1": 605950,
+      "geometry2": 889593,
+      "lat": 54.7543,
+      "lng": -7.90757
+    },
+    {
+      "site_name": "N16 Glencar",
+      "geometry1": 581929,
+      "geometry2": 840853,
+      "lat": 54.3161,
+      "lng": -8.27773
+    },
+    {
+      "site_name": "N17 Knock",
+      "geometry1": 548175,
+      "geometry2": 796778,
+      "lat": 53.9178,
+      "lng": -8.7889
+    },
+    {
+      "site_name": "N17 Tuam",
+      "geometry1": 543841,
+      "geometry2": 759014,
+      "lat": 53.578,
+      "lng": -8.84801
+    },
+    {
+      "site_name": "N18 Bunratty",
+      "geometry1": 543463,
+      "geometry2": 662364,
+      "lat": 52.7094,
+      "lng": -8.83666
+    },
+    {
+      "site_name": "N2 Cloghan",
+      "geometry1": 677893,
+      "geometry2": 824567,
+      "lat": 54.1642,
+      "lng": -6.80723
+    },
+    {
+      "site_name": "N2 Emyvale",
+      "geometry1": 667352,
+      "geometry2": 845086,
+      "lat": 54.35,
+      "lng": -6.964
+    },
+    {
+      "site_name": "N2 Funshog",
+      "geometry1": 698438,
+      "geometry2": 786278,
+      "lat": 53.8167,
+      "lng": -6.5051
+    },
+    {
+      "site_name": "N2 Reaghstown",
+      "geometry1": 688785,
+      "geometry2": 798666,
+      "lat": 53.9297,
+      "lng": -6.64806
+    },
+    {
+      "site_name": "N20 Charleville",
+      "geometry1": 553672,
+      "geometry2": 615031,
+      "lat": 52.285,
+      "lng": -8.67901
+    },
+    {
+      "site_name": "N20 Rathduff",
+      "geometry1": 559116,
+      "geometry2": 585988,
+      "lat": 52.0244,
+      "lng": -8.59573
+    },
+    {
+      "site_name": "N21 Abbeyfeale",
+      "geometry1": 509759,
+      "geometry2": 624429,
+      "lat": 52.364,
+      "lng": -9.32501
+    },
+    {
+      "site_name": "N21 Rathkeale Bypass",
+      "geometry1": 539272,
+      "geometry2": 642336,
+      "lat": 52.529,
+      "lng": -8.895
+    },
+    {
+      "site_name": "N22 Ballyvourney",
+      "geometry1": 518172,
+      "geometry2": 578956,
+      "lat": 51.9567,
+      "lng": -9.19056
+    },
+    {
+      "site_name": "N22 Killarney",
+      "geometry1": 505823,
+      "geometry2": 585664,
+      "lat": 52.015,
+      "lng": -9.37202
+    },
+    {
+      "site_name": "N22 Macroom",
+      "geometry1": 545952,
+      "geometry2": 567968,
+      "lat": 51.8613,
+      "lng": -8.7847
+    },
+    {
+      "site_name": "N24 Clonmel Relief Rd",
+      "geometry1": 619246,
+      "geometry2": 623850,
+      "lat": 52.3659,
+      "lng": -7.7174
+    },
+    {
+      "site_name": "N24 Pallas Grean",
+      "geometry1": 576174,
+      "geometry2": 647080,
+      "lat": 52.5745,
+      "lng": -8.3515
+    },
+    {
+      "site_name": "N25 Dungarvan",
+      "geometry1": 624610,
+      "geometry2": 591289,
+      "lat": 52.073,
+      "lng": -7.64101
+    },
+    {
+      "site_name": "N25 Kilmacthomas",
+      "geometry1": 641327,
+      "geometry2": 606735,
+      "lat": 52.2108,
+      "lng": -7.39529
+    },
+    {
+      "site_name": "N25 Midleton Bypass",
+      "geometry1": 581383,
+      "geometry2": 572698,
+      "lat": 51.9061,
+      "lng": -8.27056
+    },
+    {
+      "site_name": "N25 New Ross",
+      "geometry1": 669253,
+      "geometry2": 623388,
+      "lat": 52.3577,
+      "lng": -6.98331
+    },
+    {
+      "site_name": "N25 Waterford Bypass",
+      "geometry1": 657717,
+      "geometry2": 614176,
+      "lat": 52.2762,
+      "lng": -7.15423
+    },
+    {
+      "site_name": "N25 Wexford",
+      "geometry1": 704828,
+      "geometry2": 616452,
+      "lat": 52.2897,
+      "lng": -6.46337
+    },
+    {
+      "site_name": "N3 Butler's Bridge",
+      "geometry1": 640543,
+      "geometry2": 810710,
+      "lat": 54.044,
+      "lng": -7.38097
+    },
+    {
+      "site_name": "N3 Cavan",
+      "geometry1": 655339,
+      "geometry2": 794214,
+      "lat": 53.8944,
+      "lng": -7.15807
+    },
+    {
+      "site_name": "N3 Kells",
+      "geometry1": 679941,
+      "geometry2": 772813,
+      "lat": 53.6989,
+      "lng": -6.78941
+    },
+    {
+      "site_name": "N4 Ballinalack",
+      "geometry1": 635457,
+      "geometry2": 764042,
+      "lat": 53.625,
+      "lng": -7.464
+    },
+    {
+      "site_name": "N4 Carrick on Shannon",
+      "geometry1": 597136,
+      "geometry2": 798191,
+      "lat": 53.9331,
+      "lng": -8.04361
+    },
+    {
+      "site_name": "N4 Collooney Bypass",
+      "geometry1": 570658,
+      "geometry2": 820867,
+      "lat": 54.136,
+      "lng": -8.449
+    },
+    {
+      "site_name": "N4 Longford",
+      "geometry1": 614248,
+      "geometry2": 776818,
+      "lat": 53.7408,
+      "lng": -7.78402
+    },
+    {
+      "site_name": "N4 Mullingar",
+      "geometry1": 649829,
+      "geometry2": 751253,
+      "lat": 53.5089,
+      "lng": -7.2488
+    },
+    {
+      "site_name": "N40 Curraheen",
+      "geometry1": 561393,
+      "geometry2": 569506,
+      "lat": 51.8764,
+      "lng": -8.56071
+    },
+    {
+      "site_name": "N5 Charlestown II",
+      "geometry1": 548366,
+      "geometry2": 800795,
+      "lat": 53.9539,
+      "lng": -8.78667
+    },
+    {
+      "site_name": "N5 Westport",
+      "geometry1": 503188,
+      "geometry2": 784756,
+      "lat": 53.8033,
+      "lng": -9.46973
+    },
+    {
+      "site_name": "N52 Fivealley",
+      "geometry1": 610720,
+      "geometry2": 711190,
+      "lat": 53.1511,
+      "lng": -7.83974
+    },
+    {
+      "site_name": "N53 Deerpark",
+      "geometry1": 700050,
+      "geometry2": 809300,
+      "lat": 54.0232,
+      "lng": -6.4731
+    },
+    {
+      "site_name": "N55 Granard",
+      "geometry1": 633225,
+      "geometry2": 780207,
+      "lat": 53.7704,
+      "lng": -7.49601
+    },
+    {
+      "site_name": "N56 Ardara",
+      "geometry1": 574015,
+      "geometry2": 883000,
+      "lat": 54.6944,
+      "lng": -8.40307
+    },
+    {
+      "site_name": "N56 Gweedore",
+      "geometry1": 588654,
+      "geometry2": 921987,
+      "lat": 55.0453,
+      "lng": -8.17753
+    },
+    {
+      "site_name": "N59 Connemara",
+      "geometry1": 497938,
+      "geometry2": 746165,
+      "lat": 53.4557,
+      "lng": -9.53675
+    },
+    {
+      "site_name": "N59 Crossmolina",
+      "geometry1": 515862,
+      "geometry2": 819314,
+      "lat": 54.116,
+      "lng": -9.28691
+    },
+    {
+      "site_name": "N6 Kilbeggan",
+      "geometry1": 633044,
+      "geometry2": 735627,
+      "lat": 53.3698,
+      "lng": -7.50347
+    },
+    {
+      "site_name": "N61 Elphin",
+      "geometry1": 584954,
+      "geometry2": 789115,
+      "lat": 53.8513,
+      "lng": -8.22867
+    },
+    {
+      "site_name": "N63 Roscommon",
+      "geometry1": 583921,
+      "geometry2": 758342,
+      "lat": 53.5747,
+      "lng": -8.24277
+    },
+    {
+      "site_name": "N67 Corkscrewhill",
+      "geometry1": 516781,
+      "geometry2": 700216,
+      "lat": 53.0461,
+      "lng": -9.24111
+    },
+    {
+      "site_name": "N68 Kilrush",
+      "geometry1": 503822,
+      "geometry2": 657391,
+      "lat": 52.6592,
+      "lng": -9.42169
+    },
+    {
+      "site_name": "N7 Naas",
+      "geometry1": 697017,
+      "geometry2": 724248,
+      "lat": 53.2597,
+      "lng": -6.5459
+    },
+    {
+      "site_name": "N70 Waterville",
+      "geometry1": 450446,
+      "geometry2": 568526,
+      "lat": 51.8489,
+      "lng": -10.1708
+    },
+    {
+      "site_name": "N71 Leap",
+      "geometry1": 522855,
+      "geometry2": 537992,
+      "lat": 51.5892,
+      "lng": -9.11334
+    },
+    {
+      "site_name": "N72 Fermoy",
+      "geometry1": 571121,
+      "geometry2": 599446,
+      "lat": 52.1461,
+      "lng": -8.42195
+    },
+    {
+      "site_name": "N8 Two Mile Borris",
+      "geometry1": 620653,
+      "geometry2": 657743,
+      "lat": 52.6705,
+      "lng": -7.69464
+    },
+    {
+      "site_name": "N80 Killeigh",
+      "geometry1": 636778,
+      "geometry2": 718310,
+      "lat": 53.2139,
+      "lng": -7.44937
+    },
+    {
+      "site_name": "N81 Baltinglass",
+      "geometry1": 690831,
+      "geometry2": 697434,
+      "lat": 53.0199,
+      "lng": -6.64618
+    },
+    {
+      "site_name": "N81 Tallaght",
+      "geometry1": 704494,
+      "geometry2": 725685,
+      "lat": 53.2712,
+      "lng": -6.43341
+    },
+    {
+      "site_name": "N84 Cloonboo",
+      "geometry1": 532382,
+      "geometry2": 740096,
+      "lat": 53.4067,
+      "lng": -9.01694
+    },
+    {
+      "site_name": "Old N2 Annayella",
+      "geometry1": 676835,
+      "geometry2": 827306,
+      "lat": 54.1889,
+      "lng": -6.82273
+    },
+    {
+      "site_name": "R113 Sandyford",
+      "geometry1": 716518,
+      "geometry2": 725474,
+      "lat": 53.2668,
+      "lng": -6.2533
+    },
+    {
+      "site_name": "R445 Ballywilliam",
+      "geometry1": 579983,
+      "geometry2": 674934,
+      "lat": 52.825,
+      "lng": -8.297
+    },
+    {
+      "site_name": "R445 Roscrea",
+      "geometry1": 606725,
+      "geometry2": 685133,
+      "lat": 52.917,
+      "lng": -7.90001
+    },
+    {
+      "site_name": "R667 Mitchelstown",
+      "geometry1": 581073,
+      "geometry2": 607840,
+      "lat": 52.222,
+      "lng": -8.27701
+    }
+  ]
+}
+  

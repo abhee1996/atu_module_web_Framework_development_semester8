@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="heading">
+      <h1>Today </h1>
+    </div>
+    <div class="heading">
+      <h1>{{ sitename  }}</h1> 
+    </div>
+
+    <div class="rtable">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            
+            <th scope="col">#</th>
+
+           
+            <th [appSort]="todaynew" data-order="desc" data-name="site_name" *ngFor="let col of displayedColumns" (click)="sortSiteData(col[1])">time </th>
+            <th [appSort]="todaynew" data-order="desc" data-name="air_temperature" *ngFor="let col of displayedColumns" (click)="sortSiteData(col[2])" >Air Temperature</th>
+            <th [appSort]="todaynew" data-order="desc" data-name="road_surface_temperature" *ngFor="let col of displayedColumns" (click)="sortSiteData(col[3])">Road Temperature</th>
+            <th [appSort]="todaynew" data-order="desc" data-name="wind_speed" *ngFor="let col of displayedColumns" (click)="sortSiteData(col[4])" >Wind Speed</th>
+          </tr>
+        </thead>
+        <tbody>
+           <tr *ngFor="let td of todaysitedatadetails; let i = index">
+            <th scope="row">{{ i + 1 }}</th>
+            <td>{{ td.timenow }}</td>
+            <td>{{ td.air_temperature }}</td>
+            <td>{{ td.road_surface_temperature }}</td>
+            <td>{{ td.wind_speed }}</td>
+           
+          </tr> 
+        </tbody>
+      </table>
+    </div>
+  </div>

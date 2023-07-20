@@ -1,0 +1,50 @@
+<div class="container">
+    <div>
+        <h1>Statistics</h1>
+    </div>
+    <hr/>
+    <div>
+        <div>
+            <h2>National Statistics</h2>
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Weather Measure</th>
+                    <th scope="col">Max</th>
+                    <th scope="col">Min</th>
+                    <th scope="col">Avg</th>
+                  </tr>
+                </thead>
+                 <tbody > 
+                  <tr  *ngFor="let ng of nationalStatics;  let i = index;">
+                    <td  >{{displayedColumns[i]}}</td> 
+                    <td *ngFor="let air of ng ; let j = index;" >{{air}}</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+
+        <div>
+            <h2>Site Statistics</h2>
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Discription</th>
+                    <th scope="col">Site</th>
+                    <th scope="col">Value</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let ng of nationalStatics;  let i = index;">
+                        <td>{{siteColumns[i]}}</td>
+                        
+                        <td>{{siteStatics[0][i]}}</td>
+                        <td  >{{siteStatics[1][i]}}</td>
+                      </tr>
+                    
+                
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Sites</h1>
+      </div>
+      <div class="rtable">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Site Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let site of sites; let i = index">
+              <th scope="row">{{ i + 1 }}</th>
+              <td>{{ site.site_name }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<div class="main-body">
+  <!DOCTYPE html>
+
+  <div class="container">
+    <div class="heading">
+      <h1>Live</h1>
+    </div>
+    <div>
+      <form>
+        <label>Site:</label>
+
+        <input
+          type="text"
+          placeholder="Filter by county name"
+          [(ngModel)]="selected"
+          id="department"
+          class="form-control"
+          type="search"
+        />
+      </form>
+    </div>
+    <div class="rtable">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">site</th>
+            <th scope="col">Air Temprature</th>
+            <th scope="col">Road Temprature</th>
+            <th scope="col">Wind Speed Km/h</th>
+            <th scope="col">Wind Direction</th>
+            <th scope="col">Description</th>
+            <th scope="col">image</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr 
+          *ngFor="let liv of lives; 
+          filter: selected; 
+          let i = index"
+          >
+            <th scope="row">{{ i + 1 }}</th>
+            <td>{{ liv.properties.site_name }}</td>
+            <td>{{ liv.properties.air_temperature }}</td>
+            <td>{{ liv.properties.road_surface_temperature }}</td>
+            <td>{{ liv.properties.wind_speed }}</td>
+            <td>{{ liv.properties.wind_direction_bearing }}</td>
+            <td>{{ liv.properties.weather_description }}</td>
+            <td>
+              <a
+                style="text-decoration: none; color: black"
+                href="{{ liv.properties.camera_image }}"
+                >{{ liv.properties.camera_image ? "&#128253;" : "no image" }}
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+
+ 
+</div>
+
+

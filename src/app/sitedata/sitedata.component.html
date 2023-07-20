@@ -1,0 +1,52 @@
+<!------------------------------------------------------------------------------------------------------>
+
+ <div class="container">
+  <select
+  class="form-control"
+  [(ngModel)]="selected"
+  id="department"
+  name="department"
+  (ngModelChange)="onSelect()"
+ 
+>
+  <option value="" disabled>{{selected != ''? selected : 'Select'}}</option>
+  <option
+    *ngFor="let f of sitedataArray; let i = index"
+    [value]="f"
+  >
+    {{ f }}
+  </option>
+</select>  
+<button class="btn btn-warning" (click)="removeFilter()">Remove Filter</button>
+<br /> 
+<br />
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th class="tableHeader" [appSort]="sitedataCopy" data-order="desc" data-name="date" data-type="date"  *ngFor="let col of displayedColumns" (click)="sortSiteData(col[0])" scope="col"><a  style="text-decoration: none; color:black">date</a></th >
+      <th class="tableHeader" [appSort]="sitedataCopy" data-order="desc" data-name="site_name" *ngFor="let col of displayedColumns" (click)="sortSiteData(col[1])" scope="col"><a  style="text-decoration: none; color:black">Site Name</a></th >
+      <th class="tableHeader" [appSort]="sitedataCopy" data-order="desc" data-name="air_temperature" *ngFor="let col of displayedColumns" (click)="sortSiteData(col[2])" scope="col"><a  style="text-decoration: none; color:black">Air temperature</a></th >
+      <th class="tableHeader" [appSort]="sitedataCopy" data-order="desc" data-name="road_surface_temperature" *ngFor="let col of displayedColumns" (click)="sortSiteData(col[3])" scope="col"><a  style="text-decoration: none; color:black">road temprature</a></th >
+      <th class="tableHeader" [appSort]="sitedataCopy" data-order="desc" data-name="wind_speed" *ngFor="let col of displayedColumns" (click)="sortSiteData(col[4])" scope="col"><a  style="text-decoration: none; color:black">wind speed</a></th>
+    </tr>
+  </thead>
+  <tbody >
+    <tr *ngFor="let f of sitedataCopy; let i = index">
+      <th>{{ i + 1 }}</th>
+      <td>{{ f.datenow.slice(0, 10)}} - {{f.timenow}}</td>
+      <td>{{ f.site_name }}</td>
+      <td>{{ f.air_temperature }}</td>
+      <td>{{ f.road_surface_temperature }}</td>
+      <td>{{ f.wind_speed }}</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+
+
+
+
+

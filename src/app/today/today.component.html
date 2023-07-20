@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Today</h1>
+      </div>
+      <div class="heading">
+        <h1>{{ todayCopy[0].datenow.slice(0, 10) }}</h1>
+      </div>
+
+      <div class="rtable">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+
+              <th
+                class="tableHeader"
+                [appSort]="todayCopy"
+                data-order="desc"
+                data-name="site_name"
+                *ngFor="let col of displayedColumns"
+                (click)="sortSiteData(col[0])"
+              >
+                Site name
+              </th>
+              <th
+                [appSort]="todayCopy"
+                data-order="desc"
+                data-name="air_temperature"
+                *ngFor="let col of displayedColumns"
+                (click)="sortSiteData(col[0])"
+              >
+                Air Temperature
+              </th>
+              <th
+                [appSort]="todayCopy"
+                data-order="desc"
+                data-name="road_surface_temperature"
+                *ngFor="let col of displayedColumns"
+                (click)="sortSiteData(col[0])"
+              >
+                Road Temperature
+              </th>
+              <th
+                [appSort]="todayCopy"
+                data-order="desc"
+                data-name="wind_speed"
+                *ngFor="let col of displayedColumns"
+                (click)="sortSiteData(col[0])"
+              >
+                Wind Speed
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let td of todayCopy; let i = index">
+              <th scope="row">{{ i + 1 }}</th>
+            
+              <td>
+                <a routerLink="/sitedetails/{{ td.site_name }}">{{
+                  td.site_name
+                }}</a>
+              </td>
+              <td>{{ td.air_temperature }}</td>
+              <td>{{ td.road_surface_temperature }}</td>
+              <td>{{ td.wind_speed }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
